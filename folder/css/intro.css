@@ -1,0 +1,91 @@
+@font-face { 
+font-family: 'Roboto'; 
+src: url('../fonts/roboto-bold_1-webfont.woff') format('woff'); 
+font-weight: 300; 
+font-style: normal; 
+} 
+@font-face { 
+font-family: 'Roboto'; 
+src: url('../fonts/roboto-light_1-webfont.woff') format('woff'); 
+font-weight: 700; 
+font-style: normal; 
+} 
+@font-face { 
+font-family: 'Roboto'; 
+src: url('../fonts/roboto-lightitalic_1-webfont.woff') format('woff'); 
+font-weight: 300; 
+font-style: italic; 
+} 
+.main { 
+height: 100vh; 
+background-image: url('../img/main_icon.png'); 
+background-repeat: no-repeat; 
+background-size: cover; 
+position: relative; 
+} 
+.logo_block { 
+position: absolute; 
+top: 50%; 
+left: 50%; 
+transform: translate(-50%, -50%); 
+} 
+
+.logo_block-logo { 
+width: 111px; 
+height: 185px; 
+text-align: center; 
+position: relative; 
+margin: 0 auto; 
+margin-bottom: 30px; 
+} 
+.logo_block-img { 
+width: 100%; 
+object-fit: cover; 
+} 
+.container { 
+display: inline-block; 
+min-width: 207px; 
+overflow: hidden; 
+text-overflow: ellipsis; 
+white-space: ; 
+height: 45px; 
+border: 1px solid #1C5BC3; 
+border-radius: 4px; 
+line-height: 1.42; 
+color: #1C5BC3; 
+font-family: "Tahoma"; 
+font-weight: 700; 
+text-transform: uppercase; 
+text-decoration: none; 
+text-align: center; 
+transition: all 0.5s; 
+float: center; 
+
+} 
+.logo_block-link { 
+color: #1C5BC3; 
+text-decoration: none; 
+} 
+
+.container:hover { 
+background-color: #1C5BC3; 
+font-color:#FFFFFF;
+} 
+.logo_block-link:hover{
+	color:#FFFFFF;
+}
+.text { 
+float: left; 
+padding-left: 20px; 
+padding-bottom: 18px; 
+padding-top: 16px; 
+width: 175px; 
+letter-spacing: 3px; 
+font-size: 12px; 
+} 
+.item-icon__img { 
+display: inline-block; 
+float: right; 
+width: 14px; 
+height: 14px; 
+}

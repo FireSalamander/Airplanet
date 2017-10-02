@@ -1,26 +1,18 @@
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-ul li {
+.list-left__menu{
   list-style: none;
+}
+.social-icons__items1{
+	list-style: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-}
-
-
-    
 }
 .wrapper{
   position:relative;
   min-height:100%;
   height:auto!important;
   overflow:hidden;
-
 }
 .container {
   width: 1100px;
@@ -32,16 +24,15 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 20px;
   margin-bottom: 50px;
   width: 900px;
-
 }
-#header {
+.header {
   min-width: 100%;
   min-height: 80px;
   background-color:#1C5BC3;
 }
-.header_left {
+.header__left {
   display: inline-block;
-  width: 50%;
+  height:60;
   padding-left: 20px;
   padding-top: 20px;
 }
@@ -49,16 +40,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   display: inline-block;
 }
-
 .header_right {
   display: inline-block;
   float: right;
   padding-top: 20px;
   padding-right: 20px;
 }
-
-
-.phone_number {
+.number__phone{
   text-decoration: none;
   text-align: right;
   color: #FFFFFF;
@@ -72,43 +60,33 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
   color: #FFFFFF;
 }
+.header_right-grafik {
+  float: right;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
 .sidebar {
   width: 15%;
   float:left;
-  min-height: 1050px;
+  min-height:1550px;
   width: 159px;
 }
-.sidebar_menu {
+.list-left__menu{
   list-style:none;
   padding-top: 40px;
   float: center;
   padding-left: 20px;
 }
-
 .Grafik_menu {
   padding: 0px;
   margin-bottom: 17px;
 }
-.Grafik_menu:last-child {
-  margin-bottom: 0;
-}
-.navigation_link {
-  font-height: 10px;
-  float: center;
-}
-
-
-.crew_description {
-  padding-bottom: 19px;
-}
-
 #footer {
   position: absolute;
   width: 100%;
   height: 80px;
   background-color:#1C5BC3;
 }
-
 .footer__desc {
   width: 40%;
   float: left;
@@ -141,30 +119,6 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding-right: 40px;
 }
-
-
-.social__title {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 7px;
-}
-
-.social-icons__items1 {
-  font-size: 0;
-  text-align: right;
-}
-.social-icons__item {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-left: 11px;
-}
-.social__item:first-child {
-  margin-left: 0;
-}
 .social-images {
   display: block;
   width: 100%;
@@ -175,10 +129,23 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   transition: all .5s;
 }
-.caption {
-  font-size: 49px;
+.social-icons__items1 {
+  font-size: 0;
+  text-align: right;
+}
+.social-icons__item {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 11px;
+}
+.social__title {
+  color: #fff;
+  font-size: 14px;
   font-weight: 700;
-  margin-top: 18px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 7px;
 }
 .social-icons__img1 {
   background-position: -612px -15px;
@@ -218,86 +185,4 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-icons__img5:hover {
   background-position: -367px -15px;
-}
-.content {
-  width: 1100px;
-  margin-left: 20px; 
-  padding:auto; 
-  margin:auto; 
-}    
-
-.pagination {
-  margin-top: 40px;
-}
-
-.pagination__item {
-  display: inline-block;
-  font-size: 14px;
-  font-style: italic;
-}
-
-
-.pagination__item:after {
-  content: "/";
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.pagination__item:last-child:after {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.pagination__link {
-  display: inline-block;
-  vertical-align: middle;
-  color:  #ec1e79;
-  font-weight: 300;
-  line-height: 1.42;
-  text-decoration: underline;
-}
-
-.pagination__link--current {
-  color:  rgba(34, 31, 31, 0.8);
-  text-decoration: none;
-  cursor: default;
-}
-
-.title {
-  margin-top: 18px;
-}
-
-.workers_item {
-  width: 250px;
-  display: inline-block;
-  margin-left: 55px;
-  margin-bottom: 50px;
-  vertical-align: top;
-}
-
-.photo {
-  position: relative;
-  height: 153px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 50px;
-}
-
-
-.workers_occupation {
-  color:  #221f1f;
-  font-size: 18px;/* Приближение из-за подстановки шрифтов */
-  font-weight: 700;
-  text-align: center;
-  line-height: 1.2;
-  margin-top: 20px;
-}
-.workers_content {
-  font-size: 14px;/* Приближение из-за подстановки шрифтов */
-  text-align: center;
-  margin-top: 15px;
-  line-height: 1.45;
-  font-weight: 300;
 }

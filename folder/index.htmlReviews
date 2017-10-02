@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/reviews.css"> 
+<title>airlanet</title>
+	<head>
+		<body>
+			<div ckass="wrapper">
+				<div class="header">
+					<div class="container">
+						<div class="header__left">
+							<a href="index.htmlCompany" class="logo">
+								<img src="img/logo.png" class="Logo_img">
+							</a>	 
+						</div>
+						<div class="header_right"> 
+							<div class="contacts__phone"> 
+								<span class="number__phone">8 (800) 00-392-10</span>
+							</div> 
+							<div class="header_right-grafik"> 
+								<span class="grafik__works" alt="пн-вс:09:00-20:00 обед: 14:00-14:30"> График работы</span> 
+							</div> 
+						</div> 
+					</div> 
+				</div>
+					
+					<div class="content__text">
+						<div class="container">
+							<div class="sidebar"> 
+								<ul class="list-left__menu"> 
+									<li class="Grafik Grafik_menu"> 
+										<div class="item-title"> 
+											<a href="index.htmlCompany" class="text"><img src="img/one1.png" alt="Картинка иконки пункта меню" class="item-icon__img">ГЛАВНАЯ</a> 
+										</div> 
+									</li> 
+									<li class="Grafik crew_description"> 
+										<div class="item-title"> 
+											<a href="index.html" class="text"><img src="img/two.png" alt="Картинка иконки пункта меню" class="item-icon__img">ЭКИПАЖ</a> 
+										</div> 
+									</li> 
+									<li class="Grafik reviews_client"> 
+										<div class="item-title"> 
+											<a href="index.htmlReviews" class="text"><img src="img/three.png" alt="Картинка иконки пункта меню" class="item-icon__img">ОТЗЫВЫ</a> 
+										</div> 
+									</li> 
+								</ul> 
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+
+						</div>
+					</div>
+					<footer id="footer">
+						<div class="container clearfix">
+							<div class="footer__desc">
+				        		<div class="description">
+				          			Сделано с любовью и старанием <br> на курсе «HTML + CSS» в <b><a href="https://loftschool.com" class="description__loft">LoftSchool</a></b>.
+				          			<br> Автор работы: <span class="description__name"><b>Калмыков Владимир</b></span>
+				        		</div>
+				      		</div>
+				      		<div class="footer__logo">
+				        		<a href="index.htmlCompany" class="logo">
+				          			<img src="img/logo.png" alt="logo" class="logo__img">
+				        		</a>
+				      		</div>
+				      		<div class="footer_social">
+				      					<h3 class="social__title">
+				            			Наши социальные сети
+				          				</h3>
+							<ul class="social-icons__items1">
+				                       <li class="social-icons__item">
+				                           <a href="" class="social__link social__link--sprite-vk"><img src="img/vk1.png" class="social-images social-icons__img1"></a>
+				                       </li>
+				                       <li class="social-icons__item">
+				                           <a href="" class="social__link social__link--sprite-fb"><img src="img/FaceBook.png" class="social-images social-icons__img2"></a>
+				                       </li>
+				                       <li class="social-icons__item">                          
+				                           <a href="" class="social__link social__link--sprite-gl"><img src="img/Google.png" class="social-images social-icons__img3"></a>
+				                       </li>
+				                       <li class="social-icons__item">                         
+				                           <a href="" class="social__link social__link--sprite-tw"> <img src="img/Twitter.png" class="social-images social-icons__img4"></a>
+				                       </li>
+				                       <li class="social-icons__item">                           
+				                           <a href="mailto:test@mail.ru" class="social__link social__link--sprite-mail"><img src="img/Mail.png" class="social-images social-icons__img5"></a>
+				                       </li>
+				         	    </ul>
+				            </div>
+						</div>
+					</footer>
+			</div>		
+		</body>
+	</head>
+</html>	
