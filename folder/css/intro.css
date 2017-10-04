@@ -65,9 +65,12 @@ float: center;
 .container:hover .logo_block-link{
  color: #fff; 
 }
-.container:hover { 
+.container:hover{ 
 background-color: #1C5BC3; 
 } 
+.container:hover .item-icon__img{
+	background-image:url(../img/arrow2.png)
+}
 .logo_block-link { 
 color: #1C5BC3; 
 text-decoration: none; 
@@ -85,5 +88,6 @@ font-size: 12px;
 display: inline-block; 
 float: right; 
 width: 14px; 
-height: 14px; 
+height: 14px;
+ background-image:url(../img/arrow1.png)
 }
