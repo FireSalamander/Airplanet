@@ -19,6 +19,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 20px;
   margin: 0 auto;
 }
+.clearfix:after { 
+content: ""; 
+clear: both; 
+display: block; 
+}
 .content__text {
   width:85%;
     float:right;
@@ -257,7 +262,7 @@ width: 14px;
   font-weight: 700;
   margin-top: 18px;
 }
-.button{
+.button__input { 
 display: inline-block; 
 min-width: 207px; 
 overflow: hidden; 
@@ -275,23 +280,21 @@ text-decoration: none;
 text-align: center; 
 transition: all 0.5s; 
 float: center; 
+
+} 
+.button__input:hover .logo_block-link{
+ color: #fff; 
 }
-.button :hover .item-icon__img{
-  color: #fff; 
-}
-.button:hover{
-  background-color: #1C5BC3;
-}
-.image__button{ 
-display: inline-block; 
-float: right; 
-width: 14px; 
-height: 14px;
- background-image:url(../img/arrow1.png)
-}
-.button:hover .image__button{
+.button__input:hover{ 
+background-color: #1C5BC3; 
+} 
+.button__input:hover .item-icon__img{
   background-image:url(../img/arrow2.png)
 }
+.logo_block-link { 
+color: #1C5BC3; 
+text-decoration: none; 
+} 
 .text { 
 float: left; 
 padding-left: 20px; 
@@ -301,3 +304,13 @@ width: 175px;
 letter-spacing: 3px; 
 font-size: 12px; 
 } 
+.item-icon__img { 
+display: inline-block; 
+float: right; 
+width: 14px; 
+height: 14px;
+ background-image:url(../img/arrow1.png)
+}
+a{
+ text-decoration:none;
+}
