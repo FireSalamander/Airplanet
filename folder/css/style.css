@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header {
   min-width: 100%;
-  min-height: 80px;
+  min-height: 76px;
   background-color:#1C5BC3;
 }
 .header_left {
@@ -300,4 +300,45 @@ width: 14px;
   margin-top: 15px;
   line-height: 1.45;
   font-weight: 300;
+}
+.dropdown{
+  border:1px solid #fff;
+  border-radius:3px;
+  height:60px;
+  position:absolute;
+  width:200px;
+  float:right;
+  margin-right:20px;
+  text-align:center;
+top:-9999em;
+opacity:0;
+transition:0.5s opacity;
+box-shadow:0px 0px 5px 6px #CBD2E0;
+}
+.grafik__list {
+  position:relative;
+}
+.grafik__list:hover .dropdown{
+  opacity:1;
+  top:0;
+  margin-top:40px;
+  margin-left:-100px;
+}
+.triangle{
+  bottom:100%;
+  position:absolute;
+  border-top:15px solid transparent;
+  border-right:15px solid transparent;
+  border-bottom:15px solid #fff;
+  border-left:15px solid transparent;
+  left:85%;
+  width:0px;
+  height:0px;
+  top:-30px;
+}
+.dinner{
+ color:#1C5BC3;
+}
+.dinner2{
+color:#221F1F;
 }
