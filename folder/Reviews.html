@@ -63,7 +63,7 @@
 	<main class="content"> 
 		<ul class="pagination"> 
 			<li class="pagination__item"> 
-			<a href="#" class="pagination__link">Главная</a> 
+			<a href="#" class="pagination__link  link__pagination">Главная</a> 
 			</li> 
 			<li class="pagination__item"> 
 			<a href="" class="pagination__link pagination__link--current">Отзывы</a> 
@@ -108,39 +108,41 @@
 			<div class="Your__name"> 
 			<p>Ваше имя</p> 
 			</div> 
-			<div class="Input_name"> 
-			</div> 
+			<input class="Input_name"> 
+			</input> 
 			</div> 
 			<div class="Block__link"> 
 			<div class="Your__link"> 
 			<p>Ссылка на профиль VK</p> 
 			</div> 
-			<div class="Input__link"></div> 
+			<input class="Input__link"></input> 
 			</div> 
 			<div class="Block__review"> 
 			<div class="Your__review"> 
 			<p>Текст отзыва</p> 
 			</div> 
-			<div class="Input__text"></div> 
+			<textarea class="Input__text"></textarea>
 			</div> 
-			<div class="interview__text"> 
-			Отоброжать фото в отзыве 
-			</div> 
-			<ul class="interview"> 
-			<li class="interview__yes"> 
-			<input type="radio"> 
-			<label for="yes">Да</label> 
-			</li> 
-			<li class="interview__no"> 
-			<input type="radio"> 
-			<label for="no">Нет</label> 
-			</li> 
-			</ul> 
-			<div class="button"> 
-			<a class="text__button text__container"> 
-			<span class="item-icon__button">Перейти на сайт</span> 
-			<img class="image__button"> 
-			</a> 
+			<div class="interview__radio">
+				<div class="interview__text"> 
+				Отоброжать фото в отзыве ?
+				</div> 
+				<ul class="interview"> 
+				<li class="interview__yes"> 
+				<input type="radio"> 
+				<label for="yes">Да</label> 
+				</li> 
+				<li class="interview__no"> 
+				<input type="radio"> 
+				<label for="no">Нет</label> 
+				</li> 
+				</ul>
+			</div>
+			<div class="button">
+				<a href="" class="text__button container__button">
+				<span class="button__block-link">Отправить</span> 
+				<div class="item__icon-button"> </div>
+				</a>
 			</div> 
 		</div> 
 		</main> 

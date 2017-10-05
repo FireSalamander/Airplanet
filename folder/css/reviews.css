@@ -209,6 +209,9 @@ transition: all .5s;
 .pagination { 
 margin-top: 40px; 
 } 
+.link__pagination{
+  color:#6385D0;
+}
 
 .pagination__item { 
 display: inline-block; 
@@ -228,7 +231,7 @@ content: "";
 display: inline-block; 
 vertical-align: middle; 
 }
-.button { 
+.container__button { 
 display: inline-block; 
 min-width: 207px; 
 overflow: hidden; 
@@ -246,21 +249,21 @@ text-decoration: none;
 text-align: center; 
 transition: all 0.5s; 
 float: center; 
-
+}
+.container__button:hover .button__block-link{
+ color: #fff; 
+}
+.container__button:hover{ 
+background-color: #1C5BC3; 
 } 
-.item-icon__button { 
+.container__button:hover .item__icon-button{
+  background-image:url(../img/arrow2.png)
+}
+
+.button__block-link{ 
 color: #1C5BC3; 
 text-decoration: none; 
 } 
-.button:hover .item-icon__button{
- color: #fff; 
-}
-.button:hover{ 
-background-color: #1C5BC3; 
-} 
-.button:hover .image__button{
-  background-image:url(../img/arrow2.png)
-}
 .text__button { 
 float: left; 
 padding-left: 20px; 
@@ -270,7 +273,7 @@ width: 175px;
 letter-spacing: 3px; 
 font-size: 12px; 
 } 
-.image__button { 
+.item__icon-button{ 
 display: inline-block; 
 float: right; 
 width: 14px; 
@@ -320,4 +323,69 @@ box-shadow:0px 0px 5px 6px #CBD2E0;
 }
 .dinner2{
 color:#221F1F;
+}
+.Block{
+  background-color:#F5F5F5;
+  width:80%;
+  height:400px;
+}
+.Give__feedback{
+  padding-left:240px;
+}
+.Block__name{
+ padding-left:35px;
+ float:left;
+}
+.Your__name{
+
+}
+.Input_name{
+  width:300px;
+  height:50px;
+  border: 1px solid black; 
+}
+.Block__link{
+float:right;
+padding-top:-150px;
+padding-right:35px;
+}
+.Your__link{
+
+}
+.Input__link{
+  width:300px;
+  height:50px;
+  border: 1px solid black; 
+}
+.Block__review{
+  float:center;
+  padding-top:100px;
+  padding-left:35px;
+}
+.Your__review{
+
+}
+.Input__text{
+  border: 1px solid #1C5BC3; 
+  height:90px;
+  width:650px;
+}
+.interview__radio{
+float:left;
+padding-top:35px;
+padding-left:35px;
+}
+.interview__yes{
+display:inline-block;
+}
+.interview__no{
+  display:inline-block;
+}
+.interview__text{
+
+}
+.button{
+  float:right;
+  padding-top:35px;
+  padding-right:35px;
 }
