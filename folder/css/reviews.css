@@ -389,3 +389,39 @@ display:inline-block;
   padding-top:35px;
   padding-right:35px;
 }
+.page__list{
+float:center;
+padding-left:200px;
+height:50px;
+}
+.page__text{
+ color:#969595;
+ float:left;
+}
+.back{
+ display:inline-block;
+ color:#BEBDBD;
+}
+.nomber{
+display:inline-block;
+height:18px;
+width:14px;
+padding-left:5px;
+border:1px;
+border-radius:3px;
+}
+.nomber:hover{
+  border:1px solid #1C5BC3;
+  color:#1C5BC3;
+  height:18px;
+width:14px;
+padding-left:5px;
+border-radius:3px;
+background-color:#1C5BC3;
+}
+.nomber1:hover{
+  color:#FFFFFF;
+}
+.next{
+display:inline-block;
+}
