@@ -24,7 +24,7 @@ list-style: none;
 } 
 
 h1, h2, h3, h4, h5, h6 { 
-margin: 0; 
+margin:0px; 
 } 
 .wrapper{ 
 position:relative; 
@@ -64,6 +64,11 @@ float: right;
 padding-top: 20px; 
 padding-right: 20px; 
 } 
+.header_right-grafik{
+  float: right;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
 .number__phone{ 
 text-decoration: none; 
 text-align: right; 
@@ -304,12 +309,15 @@ transition: all .5s;
 text-align: justify; 
 padding-bottom: 50px; 
 }
+.dropdown__text{
+  list-style-type: none;
+}
 .dropdown{
   border:1px solid #fff;
   border-radius:3px;
   height:60px;
   position:absolute;
-  width:200px;
+  width:150px;
   float:right;
   margin-right:20px;
   text-align:center;
@@ -317,7 +325,9 @@ top:-9999em;
 opacity:0;
 transition:0.5s opacity;
 box-shadow:0px 0px 5px 6px #CBD2E0;
-list-style-type: none;
+}
+.header__dropdown{
+  margin:0px;
 }
 .grafik__list {
   position:relative;
@@ -343,9 +353,11 @@ list-style-type: none;
 }
 .dinner{
  color:#1C5BC3;
+ float:left;
 }
 .dinner2{
 color:#221F1F;
+float:left;
 }
 .white__grafick{
   color:#FFFFFF; 
