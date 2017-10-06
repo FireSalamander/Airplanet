@@ -103,7 +103,35 @@ font-size: 12px;
 letter-spacing: 3px; 
 font-weight: 600; 
 } 
-
+.sidebar { 
+float:left; 
+min-height:100%; 
+width:15%;
+}
+.text_main {
+  background: url('../img/sidebar/star3.png');
+  display: block;
+  width: 95px; /* Ширина рисунка */
+  height: 18px;
+}
+.text_feed:hover {
+  background: url('../img/sidebar/star1.png');
+}
+.text_team {
+  background: url('../img/sidebar/star5.png');
+  display: block;
+  width: 94px; /* Ширина рисунка */
+  height: 18px;
+}
+.text_team:hover {
+  background: url('../img/sidebar/star6.png');
+}
+.text_feed {
+  background: url('../img/sidebar/star2.png');
+  display: block;
+  width: 91px; /* Ширина рисунка */
+  height: 18px;
+}
 .text { 
 padding-left: 10px; 
 font-family: 'Tahoma'; 

@@ -75,22 +75,44 @@ background-color: #1C5BC3;
 color: #1C5BC3; 
 text-decoration: none; 
 } 
-.text { 
-float: left; 
-padding-left: 20px; 
+.button { 
 padding-bottom: 18px; 
 padding-top: 16px; 
-width: 175px; 
-letter-spacing: 3px; 
-font-size: 12px; 
+width: 170px;
+display: inline-block;
+float:center;
+padding-right:40px;
+}
+
+.button__block-link {
+    text-align: center;
+    width: 170px;
+    border: 2px solid #1c5bc3;
+    padding: 20px;
+    border-radius: 4px;
+    float: left; 
+}
+.button__block-link {
+  font-family: 'Tahoma';
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+    color: #1c5bc3;
+    letter-spacing: 2px;
+    font-size: 12px;
+    transition: all .3s;
+    background: url(../img/arrow1.png) center right 15px no-repeat;
+}
+.button__block-link:hover { 
+color: #fff; 
+background: url(../img/arrow2.png) center right 15px no-repeat;
 } 
-.item-icon__img { 
-display: inline-block; 
-float: right; 
-width: 14px; 
-height: 14px;
- background-image:url(../img/arrow1.png)
-}
-a{
- text-decoration:none;
-}
+.button__block-link:hover { 
+background-color: #1C5BC3; 
+text-decoration: none; 
+} 
