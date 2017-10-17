@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .phone_number {
+  font-family:Roboto;
   text-decoration: none;
   text-align: right;
   color: #FFFFFF;
