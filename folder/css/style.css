@@ -228,46 +228,39 @@ width: 14px;
   font-weight: 700;
   margin-top: 18px;
 }
-.social-icons__img1 {
-  background-position: -612px -15px;
-}
+.social-icons__img1{
+  background: url("../img/vk.png");
+ 
 
-.social-icons__img1:hover {
-  background-position: -662px -15px;
 }
+.social-icons__img1:hover{
+  background: url("../img/vk2.png");
 
-.social-icons__img2 {
-  background-position: -15px -15px;
 }
-
-.social-icons__img2:hover {
-  background-position: -65px -15px;
+.social-icons__img2{
+  background: url("../img/FaceBook.png");
 }
-
-.social-icons__img3 {
-  background-position: -217px -15px;
+.social-icons__img2:hover{
+   background: url("../img/FaceBook2.png");
 }
-
-.social-icons__img3:hover {
-  background-position: -267px -15px;
+.social-icons__img3{ 
+ background: url("../img/Google.png");
 }
-
-.social-icons__img4 {
-  background-position: -512px -15px;
+.social-icons__img3:hover{
+  background: url("../img/Google2.png");
 }
-
-.social-icons__img4:hover {
-  background-position: -562px -15px;
+.social-icons__img4{
+background: url("../img/Twitter.png");
 }
-
-.social-icons__img5 {
-  background-position: -317px -15px;
+.social-icons__img4:hover{
+  background: url("../img/Twitter2.png");
 }
-
-.social-icons__img5:hover {
-  background-position: -367px -15px;
+.social-icons__img5{
+background: url("../img/Mail.png");
 }
-
+.social-icons__img5:hover{
+  background: url("../img/Mail2.png");
+}
 
 .pagination {
   margin-top: 40px;

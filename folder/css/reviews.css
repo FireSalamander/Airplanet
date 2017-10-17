@@ -507,3 +507,36 @@ text-decoration: none;
 .pagination__link--current {
   text-decoration: none;
 }
+.social-icons__img1{
+  background: url("../img/vk.png");
+ 
+
+}
+.social-icons__img1:hover{
+  background: url("../img/vk2.png");
+
+}
+.social-icons__img2{
+  background: url("../img/FaceBook.png");
+}
+.social-icons__img2:hover{
+   background: url("../img/FaceBook2.png");
+}
+.social-icons__img3{ 
+ background: url("../img/Google.png");
+}
+.social-icons__img3:hover{
+  background: url("../img/Google2.png");
+}
+.social-icons__img4{
+background: url("../img/Twitter.png");
+}
+.social-icons__img4:hover{
+  background: url("../img/Twitter2.png");
+}
+.social-icons__img5{
+background: url("../img/Mail.png");
+}
+.social-icons__img5:hover{
+  background: url("../img/Mail2.png");
+}

@@ -219,45 +219,6 @@ margin: 0;
 padding: 0; 
 margin-bottom: 7px; 
 } 
-.social-icons__img1 { 
-background-position: -612px -15px; 
-} 
-
-.social-icons__img1:hover { 
-background-position: -662px -15px; 
-} 
-
-.social-icons__img2 { 
-background-position: -15px -15px; 
-} 
-
-.social-icons__img2:hover { 
-background-position: -65px -15px; 
-} 
-
-.social-icons__img3 { 
-background-position: -217px -15px; 
-} 
-
-.social-icons__img3:hover { 
-background-position: -267px -15px; 
-} 
-
-.social-icons__img4 { 
-background-position: -512px -15px; 
-} 
-
-.social-icons__img4:hover { 
-background-position: -562px -15px; 
-} 
-
-.social-icons__img5 { 
-background-position: -317px -15px; 
-} 
-
-.social-icons__img5:hover { 
-background-position: -367px -15px; 
-} 
 .content { 
 display: inline-block; 
 height: auto; 
@@ -314,9 +275,6 @@ font-size: 49px;
 margin: 0; 
 margin-bottom: 20px; 
 } 
-.partners_link { 
-display: block; 
-} 
 .Block__content{ 
 margin-left: 15px; 
 width: 700px; 
@@ -328,14 +286,22 @@ height: 100px;
 display: inline-block; 
 padding-bottom: 20px; 
 text-align: center; 
-
 } 
-.partners_image { 
+.partners__image { 
 display: inline-block; 
 vertical-align: middle; 
 transition: all .5s; 
 text-align: justify; 
 padding-bottom: 50px; 
+}
+.partners__image { 
+vertical-align: middle; 
+-webkit-filter: grayscale(100%); 
+} 
+.partners__image:hover { 
+vertical-align: middle; 
+filter: none; 
+transition: all .5s; 
 }
 .dropdown__text{
   list-style-type: none;
@@ -389,4 +355,37 @@ float:left;
 }
 .white__grafick{
   color:#FFFFFF; 
+}
+.social-icons__img1{
+  background: url("../img/vk.png");
+ 
+
+}
+.social-icons__img1:hover{
+  background: url("../img/vk2.png");
+
+}
+.social-icons__img2{
+  background: url("../img/FaceBook.png");
+}
+.social-icons__img2:hover{
+   background: url("../img/FaceBook2.png");
+}
+.social-icons__img3{ 
+ background: url("../img/Google.png");
+}
+.social-icons__img3:hover{
+  background: url("../img/Google2.png");
+}
+.social-icons__img4{
+background: url("../img/Twitter.png");
+}
+.social-icons__img4:hover{
+  background: url("../img/Twitter2.png");
+}
+.social-icons__img5{
+background: url("../img/Mail.png");
+}
+.social-icons__img5:hover{
+  background: url("../img/Mail2.png");
 }
