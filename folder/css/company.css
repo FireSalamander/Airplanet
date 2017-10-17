@@ -85,6 +85,7 @@ display: inline-block;
 float:left; 
 min-height:auto; 
 width: 15%; 
+padding-top:3px;
 }
 .Text__bold{
   font-weight: 600; 
@@ -104,11 +105,6 @@ font-size: 12px;
 letter-spacing: 3px; 
 font-weight: 600; 
 } 
-.sidebar { 
-float:left; 
-min-height:100%; 
-width:15%;
-}
 .text_main {
   background: url('../img/sidebar/star3.png');
   display: block;
@@ -152,8 +148,11 @@ font-height: 10px;
 float: center; 
 } 
 .crew_description { 
-padding-bottom: 19px; 
-} 
+padding-top:23px; 
+}
+.reviews_client{
+  padding-top:40px; 
+}
 #footer { 
 position: absolute; 
 width: 100%; 
