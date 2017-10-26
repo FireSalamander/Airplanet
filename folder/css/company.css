@@ -31,17 +31,23 @@ position:relative;
 min-height:100%; 
 height:auto!important; 
 overflow:hidden; 
-} 
+}
+body{
+  font-family: "Roboto" , Arial, Helvetica, sans-serif;
+
+}
 .container { 
 width: 1100px; 
 padding: 0 20px; 
 margin: 0 auto; 
+
 } 
 .content { 
 padding-bottom: 80px; 
 padding-left: 20px; 
 margin-bottom: 50px; 
 width: 900px; 
+
 } 
 .header { 
 min-width: 100%; 
@@ -70,7 +76,7 @@ padding-right: 20px;
   color: #FFFFFF;
 }
 .number__phone{ 
-font-family:Roboto;
+font-family:"Roboto-bold";
 text-decoration: none; 
 text-align: right; 
 color: #FFFFFF; 
@@ -85,7 +91,6 @@ display: inline-block;
 float:left; 
 min-height:auto; 
 width: 15%; 
-padding-top:3px;
 }
 .Text__bold{
   font-weight: 600; 
@@ -96,63 +101,49 @@ padding-top:3px;
    font-weight: 300; 
 }
 .list-left__menu{ 
-list-style:none; 
-padding-top: 30px; 
-float: center; 
-padding-left: 20px; 
-font-family: 'Roboto'; 
-font-size: 12px; 
-letter-spacing: 3px; 
-font-weight: 600; 
+  padding-top: 35px;
 } 
-.text_main {
-  background: url('../img/sidebar/star3.png');
-  display: block;
-  width: 95px; /* Ширина рисунка */
-  height: 18px;
+.text__main {
+ background-position:-90px -18px;
+ color:#221F1F;
 }
-.text_feed:hover {
-  background: url('../img/sidebar/star1.png');
+.text__main:hover{
+
 }
-.text_team {
-  background: url('../img/sidebar/star5.png');
-  display: block;
-  width: 94px; /* Ширина рисунка */
-  height: 18px;
+.text__team {
+  background-position:-160px -18px;
+  color: #1c5bc3;
 }
-.text_team:hover {
-  background: url('../img/sidebar/star6.png');
+.text__team:hover {
+   background-position:-233px -18px;
+   color:#221F1F;
 }
-.text_feed {
-  background: url('../img/sidebar/star2.png');
-  display: block;
-  width: 91px; /* Ширина рисунка */
-  height: 18px;
+.text__feed {
+background-position:-305px -18px;
+color: #1c5bc3;
+}
+.text__feed:hover {
+   background-position:-376px -18px;
+   color:#221F1F;
 }
 .text { 
-padding-left: 10px; 
-font-family: 'Tahoma'; 
-text-decoration: none; 
+  letter-spacing: 2px;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 0 10px 40px;
+  background-image: url('../img/sidebar.png');
+  width:20px;
+  height:20px;
 } 
 .item-icon__img { 
 height: 14px; 
 width: 14px; 
 } 
 
-.Grafik_menu { 
-padding: 0px; 
-margin-bottom: 17px; 
-} 
-.navigation_link { 
-font-height: 10px; 
-float: center; 
-} 
-.crew_description { 
-padding-top:23px; 
-}
-.reviews_client{
-  padding-top:40px; 
-}
 #footer { 
 position: absolute; 
 width: 100%; 
@@ -223,38 +214,40 @@ margin-bottom: 7px;
 display: inline-block; 
 height: auto; 
 width: 83%; 
+
 } 
 .background__text{ 
 overflow:hidden; 
 } 
 
 .background__text-company{ 
-padding-top:130px; 
-padding-left:50px; 
+padding-top:150px; 
+padding-left:120px; 
 font-family: 'Roboto'; 
 font-size: 49px; 
 font-weight: 600; 
 } 
 .background__img{
 background-image:url("../img/background.png"); 
-background-position:bottom; 
-margin-left: 15px; 
-width:880px; 
-height:350px; 
-
-} 
+ background-position:bottom; 
+  width:860px; 
+  opacity:1;
+  height:350px;
+ 
+}
 .text__company{ 
-font-family: 'Roboto'; 
-width:700px; 
-margin-left: 15px; 
-height: auto; 
-font-size: 18px; 
-line-height: 1.6; 
-font-weight: 300; 
-
+  font-family: 'Roboto';
+  width:700px;
+  margin-left: 15px; 
+  height: auto;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+  margin-top: 20px;
 } 
 
 .Tickets{ 
+  font-family: 'Roboto';
 background:#1C5BC3; 
 padding: 15px 55px 15px 30px; 
 font-size: 18px; 
@@ -316,14 +309,20 @@ transition: all .5s;
   float:right;
   margin-right:20px;
   text-align:center;
-top:-9999em;
-opacity:0;
-transition:0.5s opacity;
-box-shadow:0px 0px 5px 6px #CBD2E0;
-background-color:white;
+  top:-9999em;
+  opacity:0;
+  transition:0.5s opacity;
+  box-shadow:0px 0px 5px 6px #CBD2E0;
+  background-color:white;
 }
 .header__dropdown{
   margin:0px;
+}
+.white__grafik{
+  color:#CED7EE;
+}
+.white__grafik:hover{
+  color:#FFFFFF;
 }
 .grafik__list {
   position:relative;
@@ -350,18 +349,14 @@ background-color:white;
 .dinner{
  color:#1C5BC3;
  float:left;
+   font-weight: 700;
 }
 .dinner2{
 color:#221F1F;
 float:left;
 }
-.white__grafick{
-  color:#FFFFFF; 
-}
 .social-icons__img1{
   background: url("../img/vk.png");
- 
-
 }
 .social-icons__img1:hover{
   background: url("../img/vk2.png");

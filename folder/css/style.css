@@ -80,10 +80,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header_right-grafik {
   float: right;
-  text-decoration: underline;
-  color: #FFFFFF;
+  text-decoration: underline; 
+  }
+.white__grafik{
+  color:#CED7EE;
 }
- 
+.white__grafik:hover{
+   color:#FFFFFF;
+}
 .sidebar { 
 float:left; 
 width:15%;
@@ -124,36 +128,56 @@ font-size: 12px;
 letter-spacing: 3px; 
 font-weight: 600; 
 } 
-
-.text { 
-padding-left: 10px; 
-font-family: 'Tahoma'; 
-text-decoration: none; 
-} 
 .item-icon__img { 
 height: 14px; 
 width: 14px; 
 }
-.Grafik_menu {
-  padding: 0px;
-  margin-bottom: 17px;
+.Text__bold{
+  font-weight: 600; 
+  font-family: 'Roboto'; 
 }
-.Grafik_menu:last-child {
-  margin-bottom: 0;
+.text__company{
+  font-family: 'Roboto'; 
+   font-weight: 300; 
 }
-.navigation_link {
-  font-height: 10px;
-  float: center;
+.list-left__menu{ 
+  padding-top: 35px;
+} 
+.text__main {
+ background-position:-22px -18px;
+color: #1c5bc3;
 }
-
-
-.crew_description {
-  padding-top:23px; 
+.text__main:hover{
+  background-position:-90px -18px;
+   color:#221F1F;
 }
-.reviews_client{
-  padding-top:40px; 
+.text__team {
+  background-position:-233px -18px;
+  color:#221F1F;
 }
-
+.text__team:hover {
+}
+.text__feed {
+background-position:-305px -18px;
+color: #1c5bc3;
+}
+.text__feed:hover {
+   background-position:-376px -18px;
+   color:#221F1F;
+}
+.text { 
+  letter-spacing: 2px;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 0 10px 40px;
+  background-image: url('../img/sidebar.png');
+  width:20px;
+  height:20px;
+} 
 #footer {
   position: absolute;
   width: 100%;
@@ -231,6 +255,7 @@ width: 14px;
   font-size: 49px;
   font-weight: 700;
   margin-top: 18px;
+  padding-left:50px;
 }
 .social-icons__img1{
   background: url("../img/vk.png");
@@ -268,6 +293,7 @@ background: url("../img/Mail.png");
 
 .pagination {
   margin-top: 40px;
+  padding-left:50px;
 }
 
 .pagination__item {
@@ -308,12 +334,16 @@ background: url("../img/Mail.png");
   margin-top: 18px;
 }
 
-.workers_item {
-  width: 250px;
+.workers__item {
+  width: 200px;
   display: inline-block;
-  margin-left: 55px;
   margin-bottom: 50px;
   vertical-align: top;
+  margin-left: 55px;
+}
+.workers__items{
+   width: 900px;
+   float:center;
 }
 
 .photo {
@@ -324,17 +354,25 @@ background: url("../img/Mail.png");
   background-size: cover;
   margin-left: 50px;
 }
-
-
-.workers_occupation {
-  color:  #221f1f;
-  font-size: 18px;/* Приближение из-за подстановки шрифтов */
+.name{
+  float:center;
+  text-align:center;
   font-weight: 700;
-  text-align: center;
-  line-height: 1.2;
-  margin-top: 20px;
+  font-family: 'Roboto'; 
+  width:220px;
 }
-.workers_content {
+.info__workers{
+  text-align: center;
+}
+.workers__occupation {
+  font-size: 14px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align:center;
+  line-height: 1.2;
+  margin-top: 20px
+  font-family: 'Roboto'; 
+}
+.workers__content {
   font-size: 14px;/* Приближение из-за подстановки шрифтов */
   text-align: center;
   margin-top: 15px;
@@ -378,6 +416,7 @@ box-shadow:0px 0px 5px 6px #CBD2E0;
 }
 .dinner{
  color:#1C5BC3;
+ font-weight: 700;
 }
 .dinner2{
 color:#221F1F;

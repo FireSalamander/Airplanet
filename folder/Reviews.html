@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/reviews.css">
 	<title>Air Planet</title>
 </head>
-<body>
+<body style='overflow-x:hidden;'>
 	<div class="wrapper">
 		<div id="header">
 			<div class="container clearfix">
@@ -25,7 +25,7 @@
 				<div class="header_right-grafik"> 
 					<ul class="header__dropdown"> 
 						<li class="grafik__list"> 
-						<a href="#" class="work_grafik">График работы</a> 
+						<a href="#" class="white__grafik">График работы</a> 
 					<ul class="dropdown"> 
 						<div class="triangle"></div> 
 						<li class="dropdown__text"><span class="dinner">пн-во: 09:00-20:00</span> 
@@ -41,19 +41,19 @@
 		<div class="container clearfix">
 		<nav class="sidebar">
 			<ul class="list-left__menu"> 
-		        <li class="Grafik Grafik_menu"> 
+		        <li class="Grafik Grafik__menu"> 
 		          <div class="item-title"> 
-		      		  <a href="Company.html" class="text text_main"></a> 
+		      		  <a href="Company.html" class="text text__main">Главная</a> 
 		          </div> 
 		        </li> 
-		        <li class="Grafik crew_description"> 
+		        <li class="Grafik crew__description"> 
 		          <div class="item-title"> 
-		       		 <a href="index.html" class="text text_team"></a> 
+		       		 <a href="index.html" class="text text__team">Экипаж</a> 
 		          </div> 
 		        </li> 
-		        <li class="Grafik reviews_client"> 
+		        <li class="Grafik reviews__client"> 
 		          <div class="item-title"> 
-		       		 <a href="Reviews.html" class="text text_feed"></a> 
+		       		 <a href="Reviews.html" class="text text__feed">Отзывы</a> 
 		          </div> 
 		        </li> 
 		    </ul>
@@ -69,9 +69,9 @@
         	</ul>
         	<h1 class="caption">Отзывы</h1>
         	<div class="desc">
-        		<div class="img_people">
-        		<img src="img/Irina.png" alt="" class="photo_people">
-        		</div>
+        		<li class="img_people">
+        			<img src="img/Irina.png" alt="" class="photo_people">
+        		</li>
         			<ul class="desc__item">
 				<li class="desc__data">
 					12.10.2016
@@ -84,9 +84,9 @@
 				</li>
 					</ul>
         		<hr>
-        		<div class="img_people">
+        		<li class="img_people">
         			<img src="img/Belkov.png" alt="" class="photo_people">
-        		</div>	
+        		</li>	
         			<ul class="desc__item">
 				<li class="desc__data">
 					01.02.2016
@@ -99,9 +99,9 @@
 				</li>
 					</ul>
         		<hr>
-        		<div class="img_people">
+        		<li class="img_people">
         			<img src="img/Igor.png" alt="" class="photo_people">
-        		</div>
+        		</li>
         			<ul class="desc__item">
 				<li class="desc__data">
 					22.12.2015
@@ -114,9 +114,9 @@
 				</li>
 					</ul>
         		<hr>
-        		<div class="img_people">
+        		<li class="img_people">
         			<img src="img/Anastasia.png" alt="" class="photo_people">
-        		</div>	
+        		</li>	
         			<ul class="desc__item">
 				<li class="desc__data">
 					14.08.2015
@@ -130,17 +130,33 @@
 					</ul>
 			</div>
 				<div class="page__list"> 
-					<div class="page__text">Страница 1 из 7</div> 
+						<div class="page__text">Страница 1 из 7</div> 
+						<div class="back "> < </div> 				
 					<ul clas="page"> 
-						<li class="back "> < </li> 
-						<li class="nomber nomber1">1</li> 
-						<li class="nomber nomber1">2</li> 
-						<li class="nomber nomber1">3</li> 
-						<li class="nomber nomber1">4</li> 
-						<li class="nomber nomber1">5</li> 
-						<li class="nomber nomber1">6</li> 
-						<li class="nomber nomber1">7</li> 
-						<li class="next "> > </li> 
+						<li class="nomber__link">
+							<a href="" class="nomber nomber1">1</a>
+						</li>
+						<li class="nomber__link">
+							<a href="" class="nomber nomber1">2</a>
+						</li> 
+						<li class="nomber__link">
+							<a href="" class="nomber nomber1">3</a>
+						</li> 
+						<li class="nomber__link">
+							<a href="" class="nomber nomber1">4</a>
+						</li> 
+						<li class="nomber__link">
+							<a href="" class="nomber nomber1">5</a>
+						</li> 
+						<li class="nomber__link">
+							<a href="" class="nomber nomber1">6</a>
+						</li> 
+						<li class="nomber__link">
+							<a href="" class="nomber nomber1">7</a>
+						</li> 
+						<li class="next ">
+							<a href="" class="arrow__next"> > </a>
+						</li> 
 					</ul> 
 				</div> 
 		<div class="Block"> 
